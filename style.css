@@ -101,7 +101,7 @@ header a {
 }
 
 
-/* Configuracion de servicios (quienes somos) */
+/* Configuracion de servicios*/
 
 .service {
     width: 100%;
@@ -159,4 +159,20 @@ header a {
     font-weight: 300;
 }
 
-/* Configuracion de servicios (quienes somos) */
+/* Configuracion de servicios */
+
+/* galeria de fotos  */
+
+.gallery {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+
+.gallery img {
+    max-width: 300px;
+    padding: 1rem;
+    border-radius: 30px;
+}
+
+/* galeria de fotos  */
