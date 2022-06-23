@@ -4,6 +4,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    /* background-color: #000; */
 }
 /* No estoy seguro si me toma estas configuraciones */
 
@@ -75,7 +76,32 @@ header a {
 
 /* confugarion imagen logo  */
 
-/* Configuracion imagen con texto (quienes somos) */
+/* configuracion imagen bievenida */
+
+/* porque estas dos etiquetas son irrelevantes?*/
+
+
+
+/* configuracion imagen bievenida */
+
+.wrap {
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to left, rgb(0, 0, 0, .5), rgb(0, 0, 0, .5)), url(images/hamburguesa-main.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.wrap h1{
+    color: #ffff;
+    text-align: center;
+    width: 50%;
+}
+
+
+/* Configuracion de servicios (quienes somos) */
 
 .service {
     width: 100%;
@@ -133,8 +159,4 @@ header a {
     font-weight: 300;
 }
 
-/* .container .card a{
-    font
-} */
-
-/* Configuracion imagen con texto (quienes somos) */
+/* Configuracion de servicios (quienes somos) */
