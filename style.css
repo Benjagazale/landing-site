@@ -278,3 +278,86 @@ header a {
 }
 
 /* formulario */
+
+/* pie de pagina */
+
+footer {
+    background-color: #0000;
+    height: auto;
+    width: 100vw;
+    font-family: 'Bebas Neue', sans-serif;
+    padding-top: 40px;
+    /* color: #ffff; */
+    color: #000;
+    /* este color lo puse porque mi background no me agarraba */
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+/* porque no me apracece la imagen de las redes sociales? */
+.socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.socials li {
+    margin: 0 10px;
+}
+
+.socials a{
+    text-decoration: none;
+    color: #ffff;
+}
+
+.socials a{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+}
+
+.socials a:hover i{
+    color: #fba322;
+}
+/* redes sociales */
+.footer-bottom {
+    background: #000;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+/* no se ven algunas configuraciones porque mi background de footer no me agarra. Tampoco me agarran los iconos de redes sociales */
+/* pie de pagina */
