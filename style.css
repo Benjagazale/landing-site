@@ -92,11 +92,13 @@ header a {
     background: linear-gradient(to left, rgb(0, 0, 0, .5), rgb(0, 0, 0, .5)), url(images/hamburguesa-main.jpg);
     background-size: cover;
     background-position: center;
+    font-family: 'Bebas Neue', sans-serif;
 }
 
 .wrap h1{
     color: #ffff;
     margin-left: 40px;
+    font-size: 100px;
     /* esta propiedad me da el margen con el costado de la imagen  */
     /* text-align: center; */
     /* width: 50%; */
