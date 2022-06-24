@@ -346,23 +346,16 @@ footer {
     justify-content: center;
     flex-direction: column;
     text-align: center;
+    color: #fff;
 }
 
 .footer-content h3{
+    margin-left: 35px;
     font-size: 1.8rem;
     font-weight: 400;
     text-transform: capitalize;
     line-height: 3rem;
 }
-
-.footer-content p{
-    max-width: 500px;
-    margin: 10px auto;
-    line-height: 28px;
-    font-size: 14px;
-}
-
-/* porque no me apracece la imagen de las redes sociales? */
 
 .socials {
     list-style: none;
@@ -392,6 +385,7 @@ footer {
 /* redes sociales */
 .footer-bottom {
     background: #000;
+    color: white;
     width: 100%;
     padding: 20px 0;
     text-align: center;
@@ -408,5 +402,5 @@ footer {
     opacity: .4;
     font-weight: 200;
 }
-/* no se ven algunas configuraciones porque mi background de footer no me agarra. Tampoco me agarran los iconos de redes sociales */
+
 /* pie de pagina */
