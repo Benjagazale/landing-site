@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimum-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -18,84 +19,82 @@
 </head>
 
 <body>
-    <header>
-        <div class="logo">
-            <img src="images/logo-rustic.png" alt="logo rustic" class="main-logo">
-        </div>
-        <!--Aqui va la foto del logo-->
-        <nav>
-            <ul class="nav-list">
-                <li class="list-elements"><a href="#">Inicio</a></li>
-                <li class="list-elements"><a href="#">Quienes somos</a></li>
-                <li class="list-elements"><a href="#">Servicio</a></li>
-                <li class="list-elements"><a href="form.html">Registrate</a></li>
-            </ul>
-        </nav>
-        <!--enlace a otra pagina html-->
+    <div class="main-container">
+        <header>
+            <div class="logo">
+                <img src="images/logo-rustic.png" alt="logo rustic" class="main-logo">
+            </div>
+            <!--Aqui va la foto del logo-->
+            <nav>
+                <ul class="nav-list">
+                    <li class="list-elements"><a href="#">Inicio</a></li>
+                    <li class="list-elements"><a href="#">Quienes somos</a></li>
+                    <li class="list-elements"><a href="#">Servicio</a></li>
+                    <li class="list-elements"><a href="form.html">Registrate</a></li>
+                </ul>
+            </nav>
+
+        </header>
+        <main>
+            <!--Configuracion imagen bienvenida-->
+            <section>
+                <div class="wrap">
+                    <div class="h-1">
+                        <h1>Bienvenido a rustic</h1>
+                    </div>
+            </section>
+            <!-- Configuracion imagen bienvenida-->
 
 
+            <!--configuracion de servicios-->
+            <section class="service">
+                <h1 class="title">Servicios</h1>
+                <div class="container">
+                    <div class="card">
+                        <img src="images/wrap-1.jpg">
+                        <h4>Eventos</h4>
+                        <a href="">Ver más</a>
+                    </div>
 
-        <!--enlace a otra pagina html-->
-    </header>
-    <main>
-        <!--Configuracion imagen bienvenida-->
-        <section>
-            <div class="wrap">
+                    <div class="card">
+                        <img src="images/happy-birthday.jpg">
+                        <h4>Cumpleaños</h4>
+                        <a href="">Ver más</a>
+                    </div>
+
+                    <div class="card">
+                        <img src="images/wedding-reception.jpg">
+                        <h4>Matrimonios</h4>
+                        <a href="">Ver más</a>
+                    </div>
+
+                </div>
+            </section>
+            <!--configuracion de servicios-->
+
+            <!--Galeria de imagenes-->
+
+            <section>
                 <div>
-                    <h1>Bienvenido a rustic</h1>
+                    <h1 class="title-us">Nosotros</h1>
+                    <p class="paragraph-us"></p>
+                    <h3 class="title-us">Misión</h3>
+                    <p class="paragraph-us">La misión de la empresa es mantener un alto nivel de calidad en los
+                        productos,<br>
+                        conservando un ambiente cálido y familiar,<br> donde las y los clientes disfruten de una buena y
+                        abundante comida a precios accesibles.</p>
+                    <h3 class="title-us">Visión</h3>
+                    <p class="paragraph-us">En tanto la visión, esta es posicionarse como una marca líder de comida
+                        rápida
+                        en formato food truck,<br>que permita la expansión de la marca a otros sectores y/o nichos de
+                        mercado<br>
+                        para que sus productos y servicios lleguen a más clientes cada día.</p>
                 </div>
-        </section>
-        <!-- Configuracion imagen bienvenida-->
-
-
-        <!--configuracion de servicios-->
-        <section class="service">
-            <h1 class="title">Servicios</h1>
-            <div class="container">
-                <div class="card">
-                    <img src="images/wrap-1.jpg">
-                    <h4>Eventos</h4>
-                    <a href="">Ver más</a>
+            </section>
+            <section class="photos-section">
+                <div class="title-photos">
+                    <h1>Galeria</h1>
                 </div>
-
-                <div class="card">
-                    <img src="images/happy-birthday.jpg">
-                    <h4>Cumpleaños</h4>
-                    <a href="">Ver más</a>
-                </div>
-
-                <div class="card">
-                    <img src="images/wedding-reception.jpg">
-                    <h4>Matrimonios</h4>
-                    <a href="">Ver más</a>
-                </div>
-
-            </div>
-        </section>
-        <!--configuracion de servicios-->
-
-        <!--Galeria de imagenes-->
-
-        <section>
-            <div>
-                <h1 class="title-us">Nosotros</h1>
-                <p class="paragraph-us"></p>
-                <h3 class="title-us">Misión</h3>
-                <p class="paragraph-us">La misión de la empresa es mantener un alto nivel de calidad en los
-                    productos,<br>
-                    conservando un ambiente cálido y familiar,<br> donde las y los clientes disfruten de una buena y
-                    abundante comida a precios accesibles.</p>
-                <h3 class="title-us">Visión</h3>
-                <p class="paragraph-us">En tanto la visión, esta es posicionarse como una marca líder de comida rápida
-                    en formato food truck,<br>que permita la expansión de la marca a otros sectores y/o nichos de
-                    mercado<br>
-                    para que sus productos y servicios lleguen a más clientes cada día.</p>
-            </div>
-        </section>
-        <section class="photos-section">
-            <div class="title-photos">
-                <h1>Galeria</h1>
-            </div>
                 <div class="gallery">
                     <img src="images/foodtruck-1.JPG">
                     <img src="images/foodtruck-2.JPG">
@@ -104,65 +103,46 @@
                     <img src="images/twoburgers.jpg">
                     <img src="images/twoburguers-2.jpg">
                     <!-- <img src="images/wrap-2.jpg">
-                    <img src="images/wrap-3.jpg"> -->
+                                    <img src="images/wrap-3.jpg"> -->
                 </div>
-        </section>
+            </section>
 
-        <!--Galeria de imagenes-->
+            <!--Galeria de imagenes-->
 
-        <!--Formulario de contacto-->
+            <!--Formulario de contacto-->
 
-        <section class="contact">
-            <div class="contact-img-wrapper">
-                <img src='images/service-1.jpg' alt="service" class="contact-img">
+            <form class="form">
+                <h2>Contacto</h2>
+                <p type="Nombre"><input placeholder="Indique su nombre completo aquí..."></p>
+                <p type="Email"><input placeholder="Indique su correo aqui..."></p>
+                <p type="Mensaje"><input placeholder="Indique su Mensaje aqui..."></p>
+                <button>Enviar mensaje</button>
+            </form>
+            <!--Formulario de contacto-->
+        </main>
+        <footer>
+            <div class="footer-content">
+                <h3>Rustic</h3>
+                <ul class="socials">
+                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fa-solid fa-envelope"></i></a></li>
+                </ul>
             </div>
-            <div class="contact-right-side">
-                <h1 class="contact-title">Contactanos</h1>
-                <form action="" class="contact-form-wrapper">
-                    <div class="contact-input-line">
-                        <label for="name" class="contact-label">Nombre</label>
-                        <input type="text" name="name" id="name" class="contact-input">
-                    </div>
-                    <div class="contact-input-line">
-                        <label for="email" class="contact-label">Correo</label>
-                        <input type="email" name="email" id="email" class="contact-input">
-                    </div>
-                    <div class="contact-input-line">
-                        <label for="subject" class="contact-label">Asunto</label>
-                        <input type="text" name="subject" id="subject" class="contact-input">
-                    </div>
-                    <div class="contact-input-line">
-                        <label for="message" class="contact-label">Mensaje</label>
-                        <textarea name="message" id="message" class="contact-input" rows="5"></textarea>
-                    </div>
-                    <input type="submit" value="enviar Mensaje" class="contact-submit-button">
-                </form>
+            <div class="footer-bottom">
+                <p>copyright &copy;2022 Rustic foodtruck. desing by <span>Benjamin Gazale</span></p>
             </div>
-        </section>
-        <!--Formulario de contacto-->
-    </main>
-    <footer>
-        <div class="footer-content">
-            <h3>Rustic</h3>
-            <ul class="socials">
-                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                <li><a href="#"><i class="fa-solid fa-envelope"></i></a></li>
-            </ul>
-        </div>
-        <div class="footer-bottom">
-            <p>copyright &copy;2022 Rustic foodtruck. desing by <span>Benjamin Gazale</span></p>
-        </div>
 
-    </footer>
-    <script src="https://kit.fontawesome.com/62e61928ed.js" crossorigin="anonymous"></script>
+        </footer>
+        <script src="https://kit.fontawesome.com/62e61928ed.js" crossorigin="anonymous"></script>
+    </div>
 </body>
 
 </html>
 
 <!--github
-git add .
-
+                        git add .
+                        
 git commit -m "Agregué sección productos"
 
 git push origin master

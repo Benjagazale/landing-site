@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,34 +8,36 @@
     <link rel="stylesheet" href="style.css">
     <title>Rustic foodtruck</title>
 </head>
+
 <body>
-    <section class="contact">
-        
-        <div class="contact-img-wrapper">
-            <img src='images/service-1.jpg' alt="service" class="contact-img">
-        </div>
-        <div class="contact-right-side">
-            <h1 class="contact-title">Contactanos</h1>
-            <form action="" class="contact-form-wrapper">
-                <div class="contact-input-line">
-                    <label for="name" class="contact-label">Nombre</label>
-                    <input type="text" name="name" id="name" class="contact-input">
-                </div>
-                <div class="contact-input-line">
-                    <label for="email" class="contact-label">Correo</label>
-                    <input type="email" name="email" id="email" class="contact-input">
-                </div>
-                <div class="contact-input-line">
-                    <label for="subject" class="contact-label">Asunto</label>
-                    <input type="text" name="subject" id="subject" class="contact-input">
-                </div>
-                <div class="contact-input-line">
-                    <label for="message" class="contact-label">Mensaje</label>
-                    <textarea name="message" id="message" class="contact-input" rows="5"></textarea>
-                </div>
-                <input type="submit" value="enviar Mensaje" class="contact-submit-button">
-            </form>
-        </div>
+    <section>
+
+        <header>
+            <div class="logo">
+                <img src="images/logo-rustic.png" alt="logo rustic" class="main-logo">
+            </div>
+            <!--Aqui va la foto del logo-->
+            <nav>
+                <ul class="nav-list">
+                    <li class="list-elements"><a href="#">Inicio</a></li>
+                    <li class="list-elements"><a href="#">Quienes somos</a></li>
+                    <li class="list-elements"><a href="#">Servicio</a></li>
+                    <li class="list-elements"><a href="form.html">Registrate</a></li>
+                </ul>
+            </nav>
     </section>
-    </body>
+    <!--formulario de contacto-->
+
+    <form class="form">
+        <h2>Contacto</h2>
+        <p type="Nombre"><input placeholder="Indique su nombre completo aquí..."></p>
+        <p type="Email"><input placeholder="Indique su correo aqui..."></p>
+        <p type="Mensaje"><input placeholder="Indique su Mensaje aqui..."></p>
+        <button>Enviar mensaje</button>
+    </form>
+
+    <!--formulario de contacto-->
+
+</body>
+
 </html>
