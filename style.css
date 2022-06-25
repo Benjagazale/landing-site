@@ -39,7 +39,7 @@ header a {
 }
 
 .nav-list .list-elements a:hover{
-    color: #fba322 ;
+    color: #fba322;
 }
 
 /* configuracion navbar */
@@ -128,7 +128,7 @@ header a {
     text-align: center;
     /* font-size: 40px; */
     color: #000;
-    margin-top: 100px;
+    margin-top: 50px;
     font-weight: 100;
     font-family: 'Bebas Neue', sans-serif;
 }
@@ -176,12 +176,20 @@ header a {
 
 .container .card h4{
     font-weight: 600;
+    font-family: 'Bebas Neue', sans-serif;
+    margin-top: 20px;
 }
 
-.container .card p{
-    padding: 0 1rem;
-    font-size: 16px;
-    font-weight: 300;
+.container a {
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+    margin-top: 20px;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.container a:hover {
+    color: #fba322;
 }
 
 /* Configuracion de servicios */
@@ -229,6 +237,7 @@ header a {
     justify-content: center;
     align-items: center;
     background: #fffbee ;
+    font-family: 'PT Sans Narrow', sans-serif;
 }
 
 .contact-img-wrapper {
